@@ -1,0 +1,58 @@
+.movie-detail {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2em;
+}
+
+.movie-poster {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.movie-title {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+.movie-genres,
+.overview,
+.budget,
+.movie-release-date,
+.movie-vote-average {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.movie-buttons {
+    margin-top: 2em;
+}
+
+.movie-buttons button {
+    padding: 0.8em 2em;
+    margin: 0.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.watch-now {
+    background-color: #9c2af4;
+    color: white;
+}
+
+.watch-now:hover {
+    background-color: #7a1dc2;
+}
+
+.add-to-watchlist {
+    background-color: #7a1dc2;
+    color: white;
+}
+
+.add-to-watchlist:hover {
+    background-color: #5e178d;
+}
